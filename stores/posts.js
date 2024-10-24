@@ -97,8 +97,16 @@ export const usePostsStore = defineStore('Posts', {
     async getItemById(id) {
       this.loading = true    
       try {
+        // const response = await $fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
+        const localItem = this.items.find(item => item.id === id)
+        if (localItem) {
+          this.item = localItem
+          
+          return localItem
+        }
+
         const response = await $fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
-        
+    
         this.item = response
         
         return response
