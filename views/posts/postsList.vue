@@ -22,7 +22,7 @@
           <!-- 👉 Search  -->
           <AppTextField
             v-model="searchQuery"
-            placeholder="Rechercher une classe"
+            placeholder="Rechercher une article"
             style="inline-size: 15.625rem"
           />
         </div>
@@ -145,10 +145,10 @@
     <DeletePost
       v-model:isDialogVisible="isDeleteItem"
       v-model:post-id="itemId"
-      confirmation-question="Êtes-vous sûr(e) de vouloir supprimer cette classe ?"
-      confirm-title="Classe"
-      confirm-msg="Classe supprimé avec succès !"
-      cancel-title="Classe"
+      confirmation-question="Êtes-vous sûr(e) de vouloir supprimer cette article ?"
+      confirm-title="article"
+      confirm-msg="article supprimé avec succès !"
+      cancel-title="article"
       cancel-msg="Suppression annulée !"
     />
 
