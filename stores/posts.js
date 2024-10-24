@@ -18,7 +18,7 @@ export const usePostsStore = defineStore('Posts', {
   },
   actions: {
     async getItems({ q = '', statut = null, sortBy, orderBy, itemsPerPage = 10, page = 1 } = {}) {
-      // const authStore = useAuthStore()
+      
       const searchQuery = q ? q.toLowerCase() : ''
       const sortByLocal = sortBy || ''
       const orderByLocal = orderBy || ''

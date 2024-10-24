@@ -49,7 +49,6 @@ definePageMeta({
     </VCard>
     <VRow>
       <VCol cols="12">
-        <!-- 👉 User List  -->
         <PostsList />
       </VCol>
     </VRow>
