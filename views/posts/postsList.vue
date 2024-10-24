@@ -161,7 +161,7 @@
 // eslint-disable-next-line import/extensions, import/no-unresolved
 // eslint-disable-next-line import/extensions, import/no-unresolved
 import { usePostsStore } from '@/stores/posts'
-import MyPromiseIcon from '~/components/Notifs/MyPromiseIcon'
+import MyPromiseIcon from '~/components/notifs/MyPromiseIcon'
 
 const isLoading = ref(false)
 const itemStore = usePostsStore()
