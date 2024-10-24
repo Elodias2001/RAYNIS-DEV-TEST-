@@ -9,10 +9,10 @@ import { useTheme } from "vuetify"
 import CustomNotif from '~/components/Notifications/CustomNotif'
 import ChicMsg from '~/components/Notifications/ChicMsg'
 import { markRaw } from 'vue'
-import MySuccessIcon from '~/components/Notifs/MySuccessIcon'
-import MyPromiseIcon from '~/components/Notifs/MyPromiseIcon'
-import MyErrorIcon from '~/components/Notifs/MyErrorIcon'
-import MyCloseIcon from '~/components/Notifs/MyCloseIcon'
+import MySuccessIcon from '~/components/notifs/MySuccessIcon'
+import MyPromiseIcon from '~/components/notifs/MyPromiseIcon'
+import MyErrorIcon from '~/components/notifs/MyErrorIcon'
+import MyCloseIcon from '~/components/notifs/MyCloseIcon'
 
 const { global } = useTheme()
 
